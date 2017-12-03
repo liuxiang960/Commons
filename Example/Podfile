@@ -2,6 +2,7 @@ use_frameworks!
 platform :ios, '8.0'
 target 'Commons_Tests' do
   pod 'Masonry', '~> 1.1.0'
+  pod 'LXTool', :git =>'https://github.com/liuxiang960/LXTool.git'
   pod 'Commons', :path => '../'
   
   

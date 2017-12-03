@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import "UIViewExt.h"
+#import "SeudPublic.h"
+#import "SEUDColor.h"
+#import "SEUDFont.h"
 @interface BaseView : UIView
 
 -(void)addSubView:(UIView*)view;

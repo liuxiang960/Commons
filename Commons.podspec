@@ -162,6 +162,7 @@ s.exclude_files = "Classes/Exclude"
 
 # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
  s.dependency "Masonry", "~>1.1.0"
+ s.dependency "LXTool",:git => "https://github.com/liuxiang960/LXTool.git"
 end
 
 

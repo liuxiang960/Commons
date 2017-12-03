@@ -1,0 +1,24 @@
+{
+  "name": "LXTool",
+  "version": "1.0.3",
+  "summary": "Afff",
+  "description": "\"爽死你\"",
+  "homepage": "https://github.com/liuxiang960/LXTool",
+  "license": "MIT",
+  "authors": {
+    "liuxiang960": "a11223344"
+  },
+  "source": {
+    "git": "https://github.com/liuxiang960/LXTool.git",
+    "tag": "1.0.3"
+  },
+  "source_files": "Classes/**/*.{h,m}",
+  "exclude_files": "Classes/Exclude",
+  "public_header_files": "Classes/**/*.h",
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
+}
