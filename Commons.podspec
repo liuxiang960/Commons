@@ -100,12 +100,12 @@ s.source       = { :git => "https://github.com/liuxiang960/Commons.git", :tag =>
   end
 
   s.subspec 'BaseController' do |ss|
-   ss.source_files = 'Commons/Classes/Common/BaseController/**/*'
+   ss.source_files = 'Commons/Classes/Common/BaseController/**'
    ss.public_header_files = 'Commons/Classes/Common/BaseController/**/*.{h}'
   end
 
   s.subspec 'BaseModel' do |ss|
-   ss.source_files = 'Commons/Classes/Common/BaseModel/**/*'
+   ss.source_files = 'Commons/Classes/Common/BaseModel/**'
    ss.public_header_files = 'Commons/Classes/Common/BaseModel/**/*.{h}'
   end
 
