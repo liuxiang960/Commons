@@ -1,6 +1,6 @@
 {
   "name": "Commons",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "summary": "Afff",
   "description": "\"爽死你\"",
   "homepage": "https://github.com/liuxiang960/Commons",
@@ -12,15 +12,43 @@
     "git": "https://github.com/liuxiang960/Commons.git",
     "tag": "1.0.1"
   },
-  "source_files": [
-    "Classes",
-    "Classes/**/*.{h,m}"
-  ],
   "exclude_files": "Classes/Exclude",
+  "dependencies": {
+    "Masonry": [
+      "~>1.1.0"
+    ]
+  },
   "platforms": {
     "osx": null,
     "ios": null,
     "tvos": null,
     "watchos": null
-  }
+  },
+  "subspecs": [
+    {
+      "name": "BaseApi",
+      "source_files": "Commons/Classes/Common/BaseApi/**/*.{h,m}",
+      "public_header_files": "Commons/Classes/Common/BaseApi/**/*.{h}"
+    },
+    {
+      "name": "BaseController",
+      "source_files": "Commons/Classes/Common/BaseController/**",
+      "public_header_files": "Commons/Classes/Common/BaseController/**/*.{h}"
+    },
+    {
+      "name": "BaseModel",
+      "source_files": "Commons/Classes/Common/BaseModel/**",
+      "public_header_files": "Commons/Classes/Common/BaseModel/**/*.{h}"
+    },
+    {
+      "name": "BaseService",
+      "source_files": "Commons/Classes/Common/BaseService/**/*.{h,m}",
+      "public_header_files": "Commons/Classes/Common/BaseService/**/*.{h}"
+    },
+    {
+      "name": "BaseView",
+      "source_files": "Commons/Classes/Common/BaseView/**/*.{h,m}",
+      "public_header_files": "Commons/Classes/Common/BaseView/**/*.{h}"
+    }
+  ]
 }

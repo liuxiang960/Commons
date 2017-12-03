@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "UIViewExt.h"
 @interface BaseView : UIView
 
 -(void)addSubView:(UIView*)view;

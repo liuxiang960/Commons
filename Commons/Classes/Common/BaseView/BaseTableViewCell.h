@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "UIViewExt.h"
 typedef NS_ENUM(NSUInteger, DemonTableViewCellSeparatorStyle)/**<自定义线条样式*/
 {
     DemonTableViewCellSeparatorFull,/**<占满全屏幕*/
