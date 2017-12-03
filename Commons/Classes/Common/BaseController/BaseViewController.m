@@ -7,7 +7,7 @@
 //
 
 #import "BaseViewController.h"
-
+#import "Masonry.h"
 #import "BaseView.h"
 #import "DZComponent.h"
 #define kNaviBarButtonFontSize 14

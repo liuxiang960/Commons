@@ -1,5 +1,21 @@
 PODS:
-  - Commons (1.0.1)
+  - Commons (1.0.3):
+    - Commons/BaseApi (= 1.0.3)
+    - Commons/BaseController (= 1.0.3)
+    - Commons/BaseModel (= 1.0.3)
+    - Commons/BaseService (= 1.0.3)
+    - Commons/BaseView (= 1.0.3)
+    - Masonry (~> 1.1.0)
+  - Commons/BaseApi (1.0.3):
+    - Masonry (~> 1.1.0)
+  - Commons/BaseController (1.0.3):
+    - Masonry (~> 1.1.0)
+  - Commons/BaseModel (1.0.3):
+    - Masonry (~> 1.1.0)
+  - Commons/BaseService (1.0.3):
+    - Masonry (~> 1.1.0)
+  - Commons/BaseView (1.0.3):
+    - Masonry (~> 1.1.0)
   - Masonry (1.1.0)
 
 DEPENDENCIES:
@@ -11,7 +27,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  Commons: c4a5b85b5da91c21b44005363c29bdd8751bfa62
+  Commons: b78c54fa143b2f0c7f94df5cb719066604272dd5
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
 PODFILE CHECKSUM: 13a7401c0495f60451b33a6fbec3515791b3ec17
