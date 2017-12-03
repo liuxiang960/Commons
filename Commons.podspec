@@ -92,7 +92,34 @@ s.source       = { :git => "https://github.com/liuxiang960/Commons.git", :tag =>
 #
 
 #s.source_files  = "Classes", "Classes/**/*.{h,m}"
-s.source_files  = "Commons/Classes/**/*.{h,m}"
+#s.source_files  = "Commons/Classes/**/*.{h,m,json}"
+
+  s.subspec 'BaseApi' do |ss|
+   ss.source_files = 'Commons/Classes/Common/BaseApi/**/*.{h,m}'
+   ss.public_header_files = 'Commons/Classes/Common/BaseApi/**/*.{h}'
+  end
+
+  s.subspec 'BaseController' do |ss|
+   ss.source_files = 'Commons/Classes/Common/BaseController/**/*.{h,m,json}'
+   ss.public_header_files = 'Commons/Classes/Common/BaseController/**/*.{h}'
+  end
+
+  s.subspec 'BaseModel' do |ss|
+   ss.source_files = 'Commons/Classes/Common/BaseModel/**/*.{h,m,json}'
+   ss.public_header_files = 'Commons/Classes/Common/BaseModel/**/*.{h}'
+  end
+
+  s.subspec 'BaseService' do |ss|
+   ss.source_files = 'Commons/Classes/Common/BaseService/**/*.{h,m}'
+   ss.public_header_files = 'Commons/Classes/Common/BaseService/**/*.{h}'
+  end
+
+  s.subspec 'BaseView' do |ss|
+   ss.source_files = 'Commons/Classes/Common/BaseView/**/*.{h,m}'
+   ss.public_header_files = 'Commons/Classes/Common/BaseView/**/*.{h}'
+  end
+
+
 s.exclude_files = "Classes/Exclude"
 
 # s.public_header_files = "Classes/**/*.h"
